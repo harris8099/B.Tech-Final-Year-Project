@@ -1,28 +1,22 @@
 (kicad_symbol_lib
-	(version 20251024)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "10.0")
+	(generator_version "9.0")
 	(symbol "AC"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
-		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,35 +25,29 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(symbol "AC_0_1"
@@ -167,12 +155,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
-		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "A?"
 			(at 0 1.27 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -181,8 +165,6 @@
 		)
 		(property "Value" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -191,41 +173,35 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(symbol "ADXL345_0_1"
 			(rectangle
 				(start -5.08 0)
-				(end 5.08 -11.43)
+				(end 5.08 -10.16)
 				(stroke
 					(width 0)
 					(type solid)
@@ -237,7 +213,7 @@
 		)
 		(symbol "ADXL345_1_1"
 			(text "ADXL345"
-				(at 0 -13.208 0)
+				(at 0 -11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -247,14 +223,14 @@
 			(pin passive line
 				(at 7.62 -2.54 180)
 				(length 2.54)
-				(name "5V"
+				(name "VCC"
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(number "1"
+				(number ""
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -265,14 +241,14 @@
 			(pin passive line
 				(at 7.62 -3.81 180)
 				(length 2.54)
-				(name "3V3"
+				(name "GND"
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(number "2"
+				(number ""
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -283,14 +259,14 @@
 			(pin passive line
 				(at 7.62 -5.08 180)
 				(length 2.54)
-				(name "GND"
+				(name "SDA"
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(number "3"
+				(number ""
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -301,42 +277,6 @@
 			(pin passive line
 				(at 7.62 -6.35 180)
 				(length 2.54)
-				(name "VS"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 7.62 -7.62 180)
-				(length 2.54)
-				(name "CS"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -7.62 -2.54 0)
-				(length 2.54)
 				(name "SCL"
 					(effects
 						(font
@@ -344,79 +284,7 @@
 						)
 					)
 				)
-				(number "6"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -7.62 -3.81 0)
-				(length 2.54)
-				(name "SDA"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -7.62 -5.08 0)
-				(length 2.54)
-				(name "SDO"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -7.62 -6.35 0)
-				(length 2.54)
-				(name "IN2"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -7.62 -7.62 0)
-				(length 2.54)
-				(name "IN1"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "10"
+				(number ""
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -431,12 +299,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
-		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "B?"
 			(at 0 1.016 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -445,8 +309,6 @@
 		)
 		(property "Value" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -455,35 +317,29 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(symbol "Buzzer_0_1"
@@ -518,7 +374,7 @@
 						)
 					)
 				)
-				(number "1"
+				(number ""
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -536,7 +392,7 @@
 						)
 					)
 				)
-				(number "2"
+				(number ""
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -551,12 +407,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
-		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "C?"
 			(at 1.778 -1.27 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -565,8 +417,6 @@
 		)
 		(property "Value" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -575,35 +425,29 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(symbol "CT_0_1"
@@ -744,12 +588,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
-		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "C?"
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -758,8 +598,6 @@
 		)
 		(property "Value" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -768,35 +606,29 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(symbol "Contactor_0_1"
@@ -918,12 +750,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
-		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "T?"
 			(at 0 1.27 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -932,8 +760,6 @@
 		)
 		(property "Value" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -942,35 +768,29 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(symbol "DS18B20_0_1"
@@ -998,14 +818,14 @@
 			(pin passive line
 				(at 5.08 -2.54 180)
 				(length 2.54)
-				(name "3V3"
+				(name "5V"
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(number "1"
+				(number ""
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -1023,7 +843,7 @@
 						)
 					)
 				)
-				(number "2"
+				(number ""
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -1041,7 +861,7 @@
 						)
 					)
 				)
-				(number "3"
+				(number ""
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -1056,12 +876,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
-		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "M?"
 			(at 0 2.032 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1070,8 +886,6 @@
 		)
 		(property "Value" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1080,41 +894,35 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(symbol "ESP32_0_1"
 			(rectangle
 				(start -8.89 0)
-				(end 10.16 -36.83)
+				(end 7.62 -25.4)
 				(stroke
 					(width 0)
 					(type default)
@@ -1126,7 +934,7 @@
 		)
 		(symbol "ESP32_1_1"
 			(text "ESP32"
-				(at 0 -38.1 0)
+				(at 0.254 -28.448 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1134,16 +942,16 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -6.35 180)
+				(at -11.43 -1.27 0)
 				(length 2.54)
-				(name "GND"
+				(name "3.3V"
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(number "1"
+				(number ""
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -1152,16 +960,16 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -7.62 180)
+				(at -11.43 -2.54 0)
 				(length 2.54)
-				(name "GPIO23"
+				(name "EN"
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(number "2"
+				(number ""
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -1170,16 +978,16 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -8.89 180)
+				(at -11.43 -3.81 0)
 				(length 2.54)
-				(name "GPIO22"
+				(name "GPIO36"
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(number "3"
+				(number ""
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -1188,286 +996,16 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -10.16 180)
+				(at -11.43 -5.08 0)
 				(length 2.54)
-				(name "GPIO1"
+				(name "GPIO39"
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(number "4"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 12.7 -11.43 180)
-				(length 2.54)
-				(name "GPIO3"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 12.7 -12.7 180)
-				(length 2.54)
-				(name "GPIO21"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 12.7 -13.97 180)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 12.7 -15.24 180)
-				(length 2.54)
-				(name "GPIO19"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 12.7 -16.51 180)
-				(length 2.54)
-				(name "GPIO18"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 12.7 -17.78 180)
-				(length 2.54)
-				(name "GPIO5"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 12.7 -19.05 180)
-				(length 2.54)
-				(name "GPIO17"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 12.7 -20.32 180)
-				(length 2.54)
-				(name "GPIO16"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 12.7 -21.59 180)
-				(length 2.54)
-				(name "GPIO4"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 12.7 -22.86 180)
-				(length 2.54)
-				(name "GPIO0"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 12.7 -24.13 180)
-				(length 2.54)
-				(name "GPIO2"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 12.7 -25.4 180)
-				(length 2.54)
-				(name "GPIO15"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 12.7 -26.67 180)
-				(length 2.54)
-				(name "GPIO8"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "17"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 12.7 -27.94 180)
-				(length 2.54)
-				(name "GPIO7"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "18"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 12.7 -29.21 180)
-				(length 2.54)
-				(name "GPIO6"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "19"
+				(number ""
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -1478,14 +1016,14 @@
 			(pin passive line
 				(at -11.43 -6.35 0)
 				(length 2.54)
-				(name "3.3V"
+				(name "GPIO34"
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(number "20"
+				(number ""
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -1496,14 +1034,14 @@
 			(pin passive line
 				(at -11.43 -7.62 0)
 				(length 2.54)
-				(name "EN"
+				(name "GPIO35"
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(number "21"
+				(number ""
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -1514,14 +1052,14 @@
 			(pin passive line
 				(at -11.43 -8.89 0)
 				(length 2.54)
-				(name "GPIO36"
+				(name "GPIO32"
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(number "22"
+				(number ""
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -1532,14 +1070,14 @@
 			(pin passive line
 				(at -11.43 -10.16 0)
 				(length 2.54)
-				(name "GPIO39"
+				(name "GPIO33"
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(number "23"
+				(number ""
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -1550,14 +1088,14 @@
 			(pin passive line
 				(at -11.43 -11.43 0)
 				(length 2.54)
-				(name "GPIO34"
+				(name "GPIO25"
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(number "24"
+				(number ""
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -1568,14 +1106,14 @@
 			(pin passive line
 				(at -11.43 -12.7 0)
 				(length 2.54)
-				(name "GPIO35"
+				(name "GPIO26"
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(number "25"
+				(number ""
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -1586,14 +1124,14 @@
 			(pin passive line
 				(at -11.43 -13.97 0)
 				(length 2.54)
-				(name "GPIO32"
+				(name "GPIO27"
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(number "26"
+				(number ""
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -1604,14 +1142,14 @@
 			(pin passive line
 				(at -11.43 -15.24 0)
 				(length 2.54)
-				(name "GPIO33"
+				(name "GPIO14"
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(number "27"
+				(number ""
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -1622,14 +1160,14 @@
 			(pin passive line
 				(at -11.43 -16.51 0)
 				(length 2.54)
-				(name "GPIO25"
+				(name "GPIO12"
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(number "28"
+				(number ""
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -1640,14 +1178,14 @@
 			(pin passive line
 				(at -11.43 -17.78 0)
 				(length 2.54)
-				(name "GPIO26"
+				(name "GND"
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(number "29"
+				(number ""
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -1658,14 +1196,14 @@
 			(pin passive line
 				(at -11.43 -19.05 0)
 				(length 2.54)
-				(name "GPIO27"
+				(name "GPIO13"
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(number "30"
+				(number ""
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -1676,14 +1214,14 @@
 			(pin passive line
 				(at -11.43 -20.32 0)
 				(length 2.54)
-				(name "GPIO14"
+				(name "GPIO9"
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(number "31"
+				(number ""
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -1694,14 +1232,14 @@
 			(pin passive line
 				(at -11.43 -21.59 0)
 				(length 2.54)
-				(name "GPIO12"
+				(name "GPIO10"
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(number "32"
+				(number ""
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -1712,14 +1250,14 @@
 			(pin passive line
 				(at -11.43 -22.86 0)
 				(length 2.54)
-				(name "GND"
+				(name "GPIO11"
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(number "33"
+				(number ""
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -1730,78 +1268,6 @@
 			(pin passive line
 				(at -11.43 -24.13 0)
 				(length 2.54)
-				(name "GPIO13"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "34"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -11.43 -25.4 0)
-				(length 2.54)
-				(name "GPIO9"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "35"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -11.43 -26.67 0)
-				(length 2.54)
-				(name "GPIO10"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "36"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -11.43 -27.94 0)
-				(length 2.54)
-				(name "GPIO11"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "37"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -11.43 -29.21 0)
-				(length 2.54)
 				(name "5V"
 					(effects
 						(font
@@ -1809,7 +1275,349 @@
 						)
 					)
 				)
-				(number "38"
+				(number ""
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -1.27 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -2.54 180)
+				(length 2.54)
+				(name "GPIO23"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -3.81 180)
+				(length 2.54)
+				(name "GPIO22"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -5.08 180)
+				(length 2.54)
+				(name "GPIO1"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -6.35 180)
+				(length 2.54)
+				(name "GPIO3"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -7.62 180)
+				(length 2.54)
+				(name "GPIO21"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -8.89 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -10.16 180)
+				(length 2.54)
+				(name "GPIO19"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -11.43 180)
+				(length 2.54)
+				(name "GPIO18"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -12.7 180)
+				(length 2.54)
+				(name "GPIO5"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -13.97 180)
+				(length 2.54)
+				(name "GPIO17"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -15.24 180)
+				(length 2.54)
+				(name "GPIO16"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -16.51 180)
+				(length 2.54)
+				(name "GPIO4"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -17.78 180)
+				(length 2.54)
+				(name "GPIO0"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -19.05 180)
+				(length 2.54)
+				(name "GPIO2"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -20.32 180)
+				(length 2.54)
+				(name "GPIO15"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -21.59 180)
+				(length 2.54)
+				(name "GPIO8"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -22.86 180)
+				(length 2.54)
+				(name "GPIO7"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -24.13 180)
+				(length 2.54)
+				(name "GPIO6"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number ""
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -1824,12 +1632,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
-		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "H?"
 			(at 0 1.27 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1838,8 +1642,6 @@
 		)
 		(property "Value" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1848,35 +1650,29 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(symbol "Hall_sensor_0_1"
@@ -1904,14 +1700,14 @@
 			(pin passive line
 				(at 5.08 -1.27 180)
 				(length 2.54)
-				(name "3V3"
+				(name "5V"
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(number "1"
+				(number ""
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -1929,7 +1725,7 @@
 						)
 					)
 				)
-				(number "2"
+				(number ""
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -1940,306 +1736,14 @@
 			(pin passive line
 				(at 5.08 -3.81 180)
 				(length 2.54)
-				(name "DO"
+				(name "SIG"
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(number "3"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "Level_Shifter"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "L?"
-			(at 0 7.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "Level_Shifter_0_1"
-			(rectangle
-				(start -6.35 6.35)
-				(end 6.35 -5.08)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "Level_Shifter_1_1"
-			(pin passive line
-				(at -8.89 3.81 0)
-				(length 2.54)
-				(name "HV1"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -8.89 2.54 0)
-				(length 2.54)
-				(name "HV2"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -8.89 1.27 0)
-				(length 2.54)
-				(name "HV"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -8.89 0 0)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -8.89 -1.27 0)
-				(length 2.54)
-				(name "HV3"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -8.89 -2.54 0)
-				(length 2.54)
-				(name "HV4"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 8.89 3.81 180)
-				(length 2.54)
-				(name "LV1"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 8.89 2.54 180)
-				(length 2.54)
-				(name "LV2"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 8.89 1.27 180)
-				(length 2.54)
-				(name "LV"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 8.89 0 180)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 8.89 -1.27 180)
-				(length 2.54)
-				(name "LV3"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 8.89 -2.54 180)
-				(length 2.54)
-				(name "LV4"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "12"
+				(number ""
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -2254,12 +1758,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
-		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "M?"
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2268,8 +1768,6 @@
 		)
 		(property "Value" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2278,35 +1776,29 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(symbol "MCB_0_1"
@@ -2526,12 +2018,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
-		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "M?"
 			(at 0 1.27 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2540,8 +2028,6 @@
 		)
 		(property "Value" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2550,35 +2036,29 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(symbol "Motor_0_1"
@@ -2646,12 +2126,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
-		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "P?"
 			(at 0 1.524 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2660,8 +2136,6 @@
 		)
 		(property "Value" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2670,35 +2144,29 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(symbol "PZEM-004T_0_1"
@@ -2796,34 +2264,16 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -5.08 180)
+				(at 12.7 -1.27 180)
 				(length 2.54)
-				(name "5V"
+				(name "GND"
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(number "1"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 12.7 -3.81 180)
-				(length 2.54)
-				(name "RX"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "2"
+				(number "4"
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -2850,16 +2300,34 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -1.27 180)
+				(at 12.7 -3.81 180)
 				(length 2.54)
-				(name "GND"
+				(name "RX"
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(number "4"
+				(number "2"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 -5.08 180)
+				(length 2.54)
+				(name "5V"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number "1"
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -2874,12 +2342,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
-		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "R?"
 			(at 0 1.016 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2888,8 +2352,6 @@
 		)
 		(property "Value" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2898,35 +2360,29 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(symbol "Relay_0_1"
@@ -3015,7 +2471,7 @@
 						)
 					)
 				)
-				(number "1"
+				(number ""
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -3033,7 +2489,7 @@
 						)
 					)
 				)
-				(number "2"
+				(number ""
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -3051,7 +2507,7 @@
 						)
 					)
 				)
-				(number "3"
+				(number ""
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -3066,12 +2522,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
-		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "P?"
 			(at 0 1.016 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3080,8 +2532,6 @@
 		)
 		(property "Value" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3090,50 +2540,32 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(symbol "SMPS_0_1"
-			(polyline
-				(pts
-					(xy -8.89 -1.27) (xy -3.81 -1.27) (xy -3.81 -6.35) (xy -8.89 -6.35) (xy -8.89 -1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
 			(rectangle
 				(start -5.08 0)
 				(end 5.08 -7.62)
@@ -3156,7 +2588,43 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -1.27 180)
+				(at -7.62 -2.54 0)
+				(length 2.54)
+				(name "L"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 -5.08 0)
+				(length 2.54)
+				(name "N"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -2.54 180)
 				(length 2.54)
 				(name "5V"
 					(effects
@@ -3165,7 +2633,7 @@
 						)
 					)
 				)
-				(number "1"
+				(number ""
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -3174,25 +2642,7 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -3.81 180)
-				(length 2.54)
-				(name "3V3"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 7.62 -6.35 180)
+				(at 7.62 -5.08 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -3201,7 +2651,7 @@
 						)
 					)
 				)
-				(number "3"
+				(number ""
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -3216,12 +2666,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
-		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "D?"
 			(at 0 1.016 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3230,8 +2676,6 @@
 		)
 		(property "Value" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3240,35 +2684,29 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(symbol "TFT Display_0_1"
@@ -3294,106 +2732,16 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 -5.08 180)
+				(at -7.62 -2.54 0)
 				(length 2.54)
-				(name "LED"
+				(name "3.3V"
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(number "1"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -7.62 -5.08 0)
-				(length 2.54)
-				(name "SCK"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -7.62 -6.35 0)
-				(length 2.54)
-				(name "SDA"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 7.62 -2.54 180)
-				(length 2.54)
-				(name "AO"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 7.62 -3.81 180)
-				(length 2.54)
-				(name "RESET"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -7.62 -7.62 0)
-				(length 2.54)
-				(name "CS"
-					(effects
-						(font
-							(size 0.635 0.635)
-						)
-					)
-				)
-				(number "6"
+				(number ""
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -3411,7 +2759,7 @@
 						)
 					)
 				)
-				(number "7"
+				(number ""
 					(effects
 						(font
 							(size 0.635 0.635)
@@ -3420,16 +2768,106 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -2.54 0)
+				(at -7.62 -5.08 0)
 				(length 2.54)
-				(name "3.3V"
+				(name "SCK"
 					(effects
 						(font
 							(size 0.635 0.635)
 						)
 					)
 				)
-				(number "8"
+				(number ""
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 -6.35 0)
+				(length 2.54)
+				(name "SDA"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 -7.62 0)
+				(length 2.54)
+				(name "CS"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -2.54 180)
+				(length 2.54)
+				(name "AO"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -3.81 180)
+				(length 2.54)
+				(name "RESET"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number ""
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -5.08 180)
+				(length 2.54)
+				(name "LED"
+					(effects
+						(font
+							(size 0.635 0.635)
+						)
+					)
+				)
+				(number ""
 					(effects
 						(font
 							(size 0.635 0.635)
