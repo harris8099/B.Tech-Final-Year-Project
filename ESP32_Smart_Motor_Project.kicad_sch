@@ -4210,6 +4210,16 @@
 		)
 		(uuid "1090ec35-0957-4b51-9dbf-c866d4a7cf64")
 	)
+	(label "3V3"
+		(at 77.47 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "113b1d7e-683c-4d29-92cf-70fe4544e0c3")
+	)
 	(label "GPIO17"
 		(at 167.64 116.84 180)
 		(effects
@@ -4259,16 +4269,6 @@
 			(justify left bottom)
 		)
 		(uuid "18ebf34f-b896-4483-90e2-ebe41a5471dc")
-	)
-	(label "GPIO27"
-		(at 77.47 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "27733a2b-b80d-4872-8007-0f9e0472d7e6")
 	)
 	(label "5V"
 		(at 194.31 105.41 0)
