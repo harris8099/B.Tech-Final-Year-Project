@@ -150,6 +150,170 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Symbol_Lib:ADXL345"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -678,8 +842,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "M?"
-				(at 0 2.032 0)
+			(property "Reference" "M3"
+				(at -0.635 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -689,16 +853,17 @@
 				)
 			)
 			(property "Value" ""
-				(at 0 0 0)
+				(at -0.635 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "ESP32_Library:ESP32"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -862,7 +1027,7 @@
 					)
 				)
 				(pin passive line
-					(at 12.7 -13.97 180)
+					(at 12.7 -6.35 180)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -1330,7 +1495,7 @@
 					)
 				)
 				(pin passive line
-					(at -11.43 -22.86 0)
+					(at 12.7 -6.35 180)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -1584,8 +1749,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "L?"
-				(at 0 7.62 0)
+			(property "Reference" "L1"
+				(at 0 8.89 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1604,7 +1769,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "ESP32_Library:Logic_convertor"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1706,7 +1871,7 @@
 					)
 				)
 				(pin passive line
-					(at -8.89 0 0)
+					(at 8.89 0 180)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -3135,10 +3300,6 @@
 		(uuid "1bf20424-768d-4ca6-b804-58011c0838c8")
 	)
 	(no_connect
-		(at 123.19 53.34)
-		(uuid "213a72b9-8cdf-448b-8029-37a77649607b")
-	)
-	(no_connect
 		(at 123.19 64.77)
 		(uuid "22ca5e63-17db-425b-ac23-9919ba1936ac")
 	)
@@ -3183,10 +3344,6 @@
 		(uuid "84bdf7d3-10b6-44e9-983c-08ad9b478732")
 	)
 	(no_connect
-		(at 123.19 52.07)
-		(uuid "84f0bfa4-9b54-435d-9204-c9a47fc0f762")
-	)
-	(no_connect
 		(at 123.19 71.12)
 		(uuid "8d14ab01-5f44-4470-9656-bb2bb7784bd4")
 	)
@@ -3195,20 +3352,16 @@
 		(uuid "8e998140-b43e-43eb-a2c8-0378d4a7c7cc")
 	)
 	(no_connect
-		(at 123.19 55.88)
-		(uuid "96bfbb61-2af6-4154-92c6-be6438458f15")
-	)
-	(no_connect
 		(at 224.79 101.6)
 		(uuid "976d997d-a8f4-4404-8e52-d610c00eeaf2")
 	)
 	(no_connect
-		(at 86.36 96.52)
-		(uuid "a5755337-886f-4875-9585-281ac309a72a")
+		(at 123.19 50.8)
+		(uuid "9e0d93e1-6dc4-41c1-b6b3-6a0b59273ca9")
 	)
 	(no_connect
-		(at 123.19 54.61)
-		(uuid "b4253aae-7199-48a4-90e5-1f160fff18b7")
+		(at 86.36 96.52)
+		(uuid "a5755337-886f-4875-9585-281ac309a72a")
 	)
 	(no_connect
 		(at 123.19 68.58)
@@ -3233,10 +3386,6 @@
 	(no_connect
 		(at 147.32 71.12)
 		(uuid "e326344e-fc63-4756-875a-06503617a379")
-	)
-	(no_connect
-		(at 123.19 50.8)
-		(uuid "e6611021-a2cc-4566-9988-48d75efa2302")
 	)
 	(no_connect
 		(at 147.32 72.39)
@@ -3412,16 +3561,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 107.95) (xy 196.85 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "306740d2-0aa8-45ea-8fc2-987cd74eb479")
-	)
-	(wire
-		(pts
 			(xy 209.55 146.05) (xy 207.01 146.05)
 		)
 		(stroke
@@ -3492,7 +3631,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 57.15) (xy 123.19 57.15)
+			(xy 96.52 57.15) (xy 123.19 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3612,16 +3751,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 50.8) (xy 107.95 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a79525f-cc90-4857-b4da-c54e907669c0")
-	)
-	(wire
-		(pts
 			(xy 156.21 63.5) (xy 156.21 62.23)
 		)
 		(stroke
@@ -3692,6 +3821,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 24.13) (xy 177.8 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "845cd321-e221-438a-abb7-a662f3ce8cc2")
+	)
+	(wire
+		(pts
 			(xy 85.09 68.58) (xy 77.47 68.58)
 		)
 		(stroke
@@ -3732,13 +3871,33 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 57.15) (xy 147.32 57.15)
+			(xy 118.11 52.07) (xy 123.19 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9e6c2355-7f57-4e51-8b64-2e3a6765ceff")
+		(uuid "9195f5d5-9ccf-4b67-8939-11e0133d2e9f")
+	)
+	(wire
+		(pts
+			(xy 110.49 54.61) (xy 123.19 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "977faa81-beff-4f01-837e-840941828f28")
+	)
+	(wire
+		(pts
+			(xy 106.68 55.88) (xy 123.19 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a2d889a-a9a6-4eb5-bbf1-f302f3dbbbfc")
 	)
 	(wire
 		(pts
@@ -3759,6 +3918,16 @@
 			(type default)
 		)
 		(uuid "a36f2b20-1068-4d77-a086-087cfdb63401")
+	)
+	(wire
+		(pts
+			(xy 142.24 22.86) (xy 147.32 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a784cf8b-be88-40b7-98bd-055d4031754d")
 	)
 	(wire
 		(pts
@@ -3842,7 +4011,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 48.26) (xy 109.22 57.15)
+			(xy 96.52 53.34) (xy 96.52 57.15)
 		)
 		(stroke
 			(width 0)
@@ -3882,16 +4051,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 66.04) (xy 123.19 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0fd07b8-7694-47a6-8731-f77835b88385")
-	)
-	(wire
-		(pts
 			(xy 191.77 102.87) (xy 191.77 105.41)
 		)
 		(stroke
@@ -3902,7 +4061,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 58.42) (xy 123.19 58.42)
+			(xy 87.63 58.42) (xy 123.19 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3942,6 +4101,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 53.34) (xy 123.19 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0ba360f-f061-49f6-aaea-fb9ef3d16890")
+	)
+	(wire
+		(pts
 			(xy 133.35 144.78) (xy 138.43 144.78)
 		)
 		(stroke
@@ -3959,6 +4128,16 @@
 			(type default)
 		)
 		(uuid "d3b289e6-6e57-4788-9b98-b3ef736d722b")
+	)
+	(wire
+		(pts
+			(xy 208.28 24.13) (xy 213.36 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d46e7873-31e8-4d46-8770-19ca037fe818")
 	)
 	(wire
 		(pts
@@ -4009,16 +4188,6 @@
 			(type default)
 		)
 		(uuid "dbae338c-0820-4a8c-b7b2-e18475e4ed77")
-	)
-	(wire
-		(pts
-			(xy 196.85 107.95) (xy 196.85 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc7f47c2-defe-490f-823d-e1c1c14faa3d")
 	)
 	(wire
 		(pts
@@ -4079,6 +4248,16 @@
 			(type default)
 		)
 		(uuid "eca54f4a-f316-40df-adbd-ce282cb3d357")
+	)
+	(wire
+		(pts
+			(xy 111.76 22.86) (xy 116.84 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eda63735-3401-448e-9af6-0d534e308cd9")
 	)
 	(wire
 		(pts
@@ -4190,6 +4369,26 @@
 		)
 		(uuid "01e862ef-1eaf-492d-97b9-60f0991ff0be")
 	)
+	(label "GND"
+		(at 198.12 24.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "083f2c73-0c04-415e-9fd6-9d38a212f270")
+	)
+	(label "GPIO35"
+		(at 213.36 24.13 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0856c931-2283-45f4-83fd-0996e7836e05")
+	)
 	(label "GPIO22"
 		(at 162.56 52.07 0)
 		(effects
@@ -4199,16 +4398,6 @@
 			(justify left bottom)
 		)
 		(uuid "1016ebb2-f771-430e-957a-61e0d02a1e09")
-	)
-	(label "GND"
-		(at 119.38 66.04 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1090ec35-0957-4b51-9dbf-c866d4a7cf64")
 	)
 	(label "3V3"
 		(at 77.47 74.93 0)
@@ -4270,6 +4459,16 @@
 		)
 		(uuid "18ebf34f-b896-4483-90e2-ebe41a5471dc")
 	)
+	(label "GND"
+		(at 162.56 24.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "30456573-59fc-4c51-ae03-662e4f82fdf0")
+	)
 	(label "5V"
 		(at 194.31 105.41 0)
 		(effects
@@ -4300,8 +4499,18 @@
 		)
 		(uuid "39ea00d5-d209-45f6-a357-96c697e77ebf")
 	)
+	(label "3V3"
+		(at 116.84 15.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3baf09c4-6283-4778-8811-5263d4a5e40e")
+	)
 	(label "GPIO32"
-		(at 109.22 48.26 180)
+		(at 96.52 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4340,16 +4549,6 @@
 		)
 		(uuid "482fe58f-f833-46f9-b474-168e1093802d")
 	)
-	(label "GND"
-		(at 168.91 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "487ee1ed-461c-4f6e-8c81-686ca5636fee")
-	)
 	(label "GPIO23"
 		(at 154.94 50.8 0)
 		(effects
@@ -4359,6 +4558,16 @@
 			(justify left bottom)
 		)
 		(uuid "4b2e6a2b-4c7c-4d0c-9556-26a9082f7157")
+	)
+	(label "3V3"
+		(at 177.8 16.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4c46bbb9-9182-41b8-8495-8c3c1369d01a")
 	)
 	(label "GPIO18"
 		(at 157.48 59.69 0)
@@ -4371,7 +4580,7 @@
 		(uuid "4ca57b53-05a7-4f70-8cf8-3d74f9252bac")
 	)
 	(label "GPIO33"
-		(at 107.95 50.8 180)
+		(at 87.63 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4399,6 +4608,16 @@
 			(justify right bottom)
 		)
 		(uuid "529f9500-905b-4c3d-a0fe-f15fafaa86ae")
+	)
+	(label "3V3"
+		(at 147.32 15.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "54fb5287-6aa4-4122-ba94-cefb2560795b")
 	)
 	(label "GPIO5"
 		(at 165.1 60.96 0)
@@ -4440,6 +4659,16 @@
 		)
 		(uuid "683031b6-566f-4829-b1f8-6223c7d2a736")
 	)
+	(label "GPIO35"
+		(at 106.68 55.88 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6de11026-6a1c-4f21-b600-23a6d7590c39")
+	)
 	(label "GPIO4"
 		(at 153.67 71.12 0)
 		(effects
@@ -4469,16 +4698,6 @@
 			(justify left bottom)
 		)
 		(uuid "78b22965-fcd6-44fa-9b47-65159a11c4a0")
-	)
-	(label "GND"
-		(at 196.85 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7944b894-3bd5-475b-95bc-32ff8f5617f3")
 	)
 	(label "GND"
 		(at 105.41 157.48 0)
@@ -4530,6 +4749,26 @@
 		)
 		(uuid "90fa69bb-18eb-4762-9e60-58ae649f47bf")
 	)
+	(label "GND"
+		(at 132.08 22.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "993b50dd-55d9-43e7-90dc-40b654803802")
+	)
+	(label "GPIO39"
+		(at 147.32 22.86 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a1a48416-b555-4aca-a156-97b3c8469bfe")
+	)
 	(label "5V"
 		(at 170.18 144.78 0)
 		(effects
@@ -4551,6 +4790,16 @@
 		(uuid "ad1ef438-c75a-454f-af9d-c38e759dfca1")
 	)
 	(label "GND"
+		(at 101.6 22.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ad4bdc6f-7288-459e-9563-f38e6ca6661c")
+	)
+	(label "GND"
 		(at 203.2 114.3 180)
 		(effects
 			(font
@@ -4569,6 +4818,26 @@
 			(justify right bottom)
 		)
 		(uuid "b2f08d7c-f468-4947-b638-ad8b2cdc4192")
+	)
+	(label "3V3"
+		(at 213.36 16.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b332af7e-78d5-4ed7-aa40-4819fa738c89")
+	)
+	(label "GPIO36"
+		(at 116.84 22.86 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b65b9612-5143-4c4b-bf1d-0581e8d1e6b4")
 	)
 	(label "GPIO18"
 		(at 53.34 69.85 180)
@@ -4660,6 +4929,26 @@
 		)
 		(uuid "d1e5d5e5-6888-4404-98be-54a438435827")
 	)
+	(label "GPIO34"
+		(at 110.49 54.61 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d816d8e2-6207-4da8-9947-8b09877d2062")
+	)
+	(label "GPIO36"
+		(at 118.11 52.07 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "db1472bc-7fc8-4c12-b1a1-ba3014c8490e")
+	)
 	(label "HV1"
 		(at 220.98 146.05 0)
 		(effects
@@ -4720,6 +5009,16 @@
 		)
 		(uuid "ed9575f6-37f9-4bc7-989a-093f2b5dff21")
 	)
+	(label "GPIO39"
+		(at 114.3 53.34 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "efdafb4f-7392-45e4-b829-d17153b9a0db")
+	)
 	(label "3V3"
 		(at 71.12 40.64 0)
 		(effects
@@ -4729,6 +5028,16 @@
 			(justify left bottom)
 		)
 		(uuid "f8138d94-ddbf-453d-af83-ea533f29a552")
+	)
+	(label "GPIO34"
+		(at 177.8 24.13 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fa925128-b3ca-4cd5-b34d-4ac3a1e73642")
 	)
 	(label "GPIO25"
 		(at 106.68 59.69 180)
@@ -4749,6 +5058,88 @@
 			(justify left bottom)
 		)
 		(uuid "fceb6e32-b41a-44bb-af1a-d98362f2083d")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 147.32 19.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1339d976-7166-4220-8ac7-7c790c5bbe74")
+		(property "Reference" "R6"
+			(at 149.86 17.7799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 149.86 20.3199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 145.542 19.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 147.32 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e3f5d0e7-e3bb-48fe-b3fb-90bbb7d2c8f9")
+		)
+		(pin "1"
+			(uuid "78951d8e-ff3d-4067-88c0-a0021ca553c2")
+		)
+		(instances
+			(project "ESP32_Smart_Motor_Project"
+				(path "/b836dc80-99fc-43c3-bd92-6b32361bdf1b"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Symbol_Lib:SMPS")
@@ -5025,6 +5416,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 167.64 24.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2652b1dc-3048-4a0a-a4a2-0deff7e4c952")
+		(property "Reference" "SW3"
+			(at 167.64 16.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 167.64 19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at 167.64 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 167.64 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9a6f1ae8-0486-4b67-b1f4-14a85790fb18")
+		)
+		(pin "2"
+			(uuid "fcce762a-dd2d-4580-aae3-31a2b896d63a")
+		)
+		(instances
+			(project "ESP32_Smart_Motor_Project"
+				(path "/b836dc80-99fc-43c3-bd92-6b32361bdf1b"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 80.01 93.98 180)
 		(unit 1)
@@ -5097,6 +5568,248 @@
 			(project "ESP32_Smart_Motor_Project"
 				(path "/b836dc80-99fc-43c3-bd92-6b32361bdf1b"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 203.2 24.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ac2e4c2-16db-4860-87d1-1328ece4154a")
+		(property "Reference" "SW4"
+			(at 203.2 16.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 203.2 19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at 203.2 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 203.2 24.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e12037e6-cd7b-427c-a547-8e4493df2c31")
+		)
+		(pin "2"
+			(uuid "524203d1-a12f-4e04-9e00-6e4ad627845d")
+		)
+		(instances
+			(project "ESP32_Smart_Motor_Project"
+				(path "/b836dc80-99fc-43c3-bd92-6b32361bdf1b"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 137.16 22.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5826c862-1f7b-4fd2-ab1b-e808c2b8625f")
+		(property "Reference" "SW2"
+			(at 137.16 15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 137.16 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at 137.16 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 137.16 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "400ee6c5-06b1-4c81-933a-04df51232fa6")
+		)
+		(pin "2"
+			(uuid "33bff598-3ca2-49b4-9973-fc09211280e3")
+		)
+		(instances
+			(project "ESP32_Smart_Motor_Project"
+				(path "/b836dc80-99fc-43c3-bd92-6b32361bdf1b"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 213.36 20.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f3e9539-72f4-44a2-bbb6-b625752e94c7")
+		(property "Reference" "R8"
+			(at 215.9 19.0499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 215.9 21.5899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 211.582 20.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 213.36 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "24feecc2-157b-4c11-a95d-61845524c260")
+		)
+		(pin "1"
+			(uuid "caf80f92-393a-454a-9482-e33a2d857408")
+		)
+		(instances
+			(project "ESP32_Smart_Motor_Project"
+				(path "/b836dc80-99fc-43c3-bd92-6b32361bdf1b"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -5177,6 +5890,88 @@
 			(project "ESP32_Smart_Motor_Project"
 				(path "/b836dc80-99fc-43c3-bd92-6b32361bdf1b"
 					(reference "B1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 116.84 19.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8055c8eb-14b6-42e4-b244-23a41bcda8a5")
+		(property "Reference" "R1"
+			(at 119.38 17.7799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 119.38 20.3199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 115.062 19.05 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 116.84 19.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "58f7974f-7f6c-48da-b4ef-822ad3b0ca69")
+		)
+		(pin "1"
+			(uuid "ad5f5464-5d3a-480f-816b-15995601e6f1")
+		)
+		(instances
+			(project "ESP32_Smart_Motor_Project"
+				(path "/b836dc80-99fc-43c3-bd92-6b32361bdf1b"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -5611,6 +6406,168 @@
 			(project "ESP32_Smart_Motor_Project"
 				(path "/b836dc80-99fc-43c3-bd92-6b32361bdf1b"
 					(reference "T1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 177.8 20.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8bd5b57-8e26-40b5-9d50-e8809aafb76e")
+		(property "Reference" "R7"
+			(at 180.34 19.0499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 180.34 21.5899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 176.022 20.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 177.8 20.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "42c379f2-5807-4c61-9753-5ccad869f724")
+		)
+		(pin "1"
+			(uuid "32c324bc-5ff0-4380-b486-f127ddca6745")
+		)
+		(instances
+			(project "ESP32_Smart_Motor_Project"
+				(path "/b836dc80-99fc-43c3-bd92-6b32361bdf1b"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 106.68 22.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c738e760-4559-4f4b-9e29-0e0e68bb5fe2")
+		(property "Reference" "SW1"
+			(at 106.68 15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 106.68 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at 106.68 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 106.68 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b02a8dae-88ae-468b-9975-aac19dc1bb39")
+		)
+		(pin "2"
+			(uuid "d1aecbf8-3f44-4779-9475-43284ab4d2d8")
+		)
+		(instances
+			(project "ESP32_Smart_Motor_Project"
+				(path "/b836dc80-99fc-43c3-bd92-6b32361bdf1b"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
