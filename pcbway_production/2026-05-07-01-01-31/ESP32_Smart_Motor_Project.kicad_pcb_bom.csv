@@ -1,0 +1,16 @@
+﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,Description,KiLib_Generator
+A1,1,~,ADXL345,,,,smt,,
+B1,1,~,Buzzer_12x9.5RM7.6,,,,tht,,
+D1,1,~,TFT_display,,,,smt,,
+H1,1,~,Hall_sensor,,,,smt,,
+L1,1,~,Logic_convertor,,,,smt,,
+M3,1,~,ESP32,,,,smt,,
+P1,1,~,PZEM_004T,,,,smt,,
+P2,1,~,Power_supply,,,,smt,,
+Q1,1,IRLZ34N,TO-220-3_Vertical,,,,tht,"30A Id, 55V Vds, 35mOhm Rds, N-Channel HEXFET Power MOSFET, TO-220AB",package/TO_SOT/THT
+"R1, R4, R6, R7, R8",5,10K,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,,,,tht,Resistor,resistor/THT
+R2,1,4.7K,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,,,,tht,Resistor,resistor/THT
+R3,1,100ohm,R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,,,,tht,Resistor,resistor/THT
+R5,1,~,Relay,,,,smt,,
+"SW1, SW2, SW3, SW4",4,SW_Push,PinSocket_1x02_P2.54mm_Vertical,,,,tht,"Push button switch, generic, two pins",connector/pin_header_socket
+T1,1,~,DS18B20,,,,smt,,

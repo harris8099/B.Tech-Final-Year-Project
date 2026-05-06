@@ -8,6 +8,7 @@
 		(title "ESP32 SMART MOTOR")
 		(date "2026-02-18")
 		(rev "1")
+		(company "HARSHIL SUTHAR")
 	)
 	(lib_symbols
 		(symbol "Device:R"
@@ -3501,6 +3502,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 152.4) (xy 180.34 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21c3f0f2-6c7c-4329-ae92-126a08ff1abb")
+	)
+	(wire
+		(pts
 			(xy 196.85 118.11) (xy 196.85 109.22)
 		)
 		(stroke
@@ -3521,6 +3532,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 140.97) (xy 195.58 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bb9924d-1e85-493f-bc06-e67a1b07cb9e")
+	)
+	(wire
+		(pts
 			(xy 207.01 146.05) (xy 203.2 146.05)
 		)
 		(stroke
@@ -3538,6 +3559,16 @@
 			(type default)
 		)
 		(uuid "2d12ea8a-2f72-4aaf-a617-3197faf301bc")
+	)
+	(wire
+		(pts
+			(xy 180.34 152.4) (xy 180.34 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dbd81b2-265a-4d66-b43c-7f44d10fa76a")
 	)
 	(wire
 		(pts
@@ -3988,16 +4019,6 @@
 			(type default)
 		)
 		(uuid "b38de511-4ace-4c45-8fd6-a4f5cef85668")
-	)
-	(wire
-		(pts
-			(xy 171.45 152.4) (xy 195.58 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b50243be-6ec8-4ca1-a26e-43a8040d7cde")
 	)
 	(wire
 		(pts
@@ -4480,7 +4501,7 @@
 		(uuid "34cc6195-383e-44e5-a1bb-4960331cde6c")
 	)
 	(label "GND"
-		(at 195.58 140.97 180)
+		(at 195.58 152.4 270)
 		(effects
 			(font
 				(size 1.27 1.27)
