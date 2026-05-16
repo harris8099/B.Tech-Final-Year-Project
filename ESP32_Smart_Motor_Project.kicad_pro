@@ -744,13 +744,17 @@
         "uuid": "b836dc80-99fc-43c3-bd92-6b32361bdf1b"
       }
     ],
-    "used_designators": "TP1,SW1-4,R1,R6-8",
+    "used_designators": "TP1,P3,SW1-4,R1,R6-9,M1,U1,C1-2,#PWR1-2",
     "variants": []
   },
   "sheets": [
     [
       "b836dc80-99fc-43c3-bd92-6b32361bdf1b",
       "ESP32_Smart_Motor_Project"
+    ],
+    [
+      "07b4333b-c6e1-44d1-aada-da7e14315303",
+      "Overall"
     ]
   ],
   "text_variables": {},

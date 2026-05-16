@@ -7162,6 +7162,52 @@
 			)
 		)
 	)
+	(sheet
+		(at 229.87 48.26)
+		(size 31.75 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "07b4333b-c6e1-44d1-aada-da7e14315303")
+		(property "Sheetname" "Overall"
+			(at 229.87 47.5484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "overall.kicad_sch"
+			(at 229.87 76.7846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ESP32_Smart_Motor_Project"
+				(path "/b836dc80-99fc-43c3-bd92-6b32361bdf1b"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
